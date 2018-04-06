@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyFeatures", "AnyFeatures\AnyFeatures.csproj", "{5C5FC490-B74F-4C40-9460-A355A820C6C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features.Modeling", "Features.Modeling\Features.Modeling.csproj", "{9B7597AF-D934-42B9-9773-8A66BFAB9C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features.Core", "Features.Core\Features.Core.csproj", "{C3DEEB62-2C24-41FC-823F-28B0B8AB303B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features.Comprehensive", "Features.Comprehensive\Features.Comprehensive.csproj", "{3CC5CD02-4AB4-44FB-83DB-236B2C35BD72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Features.Rendering", "Features.Rendering\Features.Rendering.csproj", "{E2A25EAF-30D9-4A07-BC33-B89BB2F874ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C5FC490-B74F-4C40-9460-A355A820C6C2}.Debug|x64.ActiveCfg = Debug|x64
+		{5C5FC490-B74F-4C40-9460-A355A820C6C2}.Debug|x64.Build.0 = Debug|x64
+		{5C5FC490-B74F-4C40-9460-A355A820C6C2}.Release|x64.ActiveCfg = Release|x64
+		{5C5FC490-B74F-4C40-9460-A355A820C6C2}.Release|x64.Build.0 = Release|x64
+		{9B7597AF-D934-42B9-9773-8A66BFAB9C40}.Debug|x64.ActiveCfg = Debug|x64
+		{9B7597AF-D934-42B9-9773-8A66BFAB9C40}.Debug|x64.Build.0 = Debug|x64
+		{9B7597AF-D934-42B9-9773-8A66BFAB9C40}.Release|x64.ActiveCfg = Release|x64
+		{9B7597AF-D934-42B9-9773-8A66BFAB9C40}.Release|x64.Build.0 = Release|x64
+		{C3DEEB62-2C24-41FC-823F-28B0B8AB303B}.Debug|x64.ActiveCfg = Debug|x64
+		{C3DEEB62-2C24-41FC-823F-28B0B8AB303B}.Debug|x64.Build.0 = Debug|x64
+		{C3DEEB62-2C24-41FC-823F-28B0B8AB303B}.Release|x64.ActiveCfg = Release|x64
+		{C3DEEB62-2C24-41FC-823F-28B0B8AB303B}.Release|x64.Build.0 = Release|x64
+		{3CC5CD02-4AB4-44FB-83DB-236B2C35BD72}.Debug|x64.ActiveCfg = Debug|x64
+		{3CC5CD02-4AB4-44FB-83DB-236B2C35BD72}.Debug|x64.Build.0 = Debug|x64
+		{3CC5CD02-4AB4-44FB-83DB-236B2C35BD72}.Release|x64.ActiveCfg = Release|x64
+		{3CC5CD02-4AB4-44FB-83DB-236B2C35BD72}.Release|x64.Build.0 = Release|x64
+		{E2A25EAF-30D9-4A07-BC33-B89BB2F874ED}.Debug|x64.ActiveCfg = Debug|x64
+		{E2A25EAF-30D9-4A07-BC33-B89BB2F874ED}.Debug|x64.Build.0 = Debug|x64
+		{E2A25EAF-30D9-4A07-BC33-B89BB2F874ED}.Release|x64.ActiveCfg = Release|x64
+		{E2A25EAF-30D9-4A07-BC33-B89BB2F874ED}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
