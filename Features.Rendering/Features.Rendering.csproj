@@ -70,6 +70,7 @@
     <Compile Include="NodeObject\ColoredFace.cs" />
     <Compile Include="NodeObject\PointCloud.cs" />
     <Compile Include="NodeObject\PointMarker.cs" />
+    <Compile Include="NodeObject\ShapeCopies.cs" />
     <Compile Include="NodeObject\Text3dObject.cs" />
     <Compile Include="RenderingModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

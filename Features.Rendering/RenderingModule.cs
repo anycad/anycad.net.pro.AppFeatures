@@ -27,6 +27,7 @@ namespace Features.Rendering
             FeatureManager.Instance().Add(new Text3dObject());
             FeatureManager.Instance().Add(new PointCloudObject());
             FeatureManager.Instance().Add(new PointMarker());
+            FeatureManager.Instance().Add(new ShapeCopies());
 
             FeatureManager.Instance().Add(new RemoveNode());
             FeatureManager.Instance().Add(new ListNodes());

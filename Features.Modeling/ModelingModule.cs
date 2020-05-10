@@ -25,6 +25,7 @@ namespace Features.Modeling
             FeatureManager.Instance().Add(new Sphere());
             FeatureManager.Instance().Add(new Box());
             FeatureManager.Instance().Add(new SurfaceFromPoints());
+            FeatureManager.Instance().Add(new RectTube());
 
             FeatureManager.Instance().Add(new MakeCut());
             //FeatureManager.Instance().Add(new MakeGlue());

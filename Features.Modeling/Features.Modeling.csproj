@@ -79,6 +79,7 @@
     <Compile Include="Primitive\Box.cs" />
     <Compile Include="Primitive\Primitive.cs" />
     <Compile Include="Primitive\RectangleR.cs" />
+    <Compile Include="Primitive\RectTube.cs" />
     <Compile Include="Primitive\Sphere.cs" />
     <Compile Include="Primitive\Spiral.cs" />
     <Compile Include="Primitive\Surface.cs" />
