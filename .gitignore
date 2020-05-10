@@ -1,7 +1,4 @@
-bin/x64
-bin/x86
-AnyFeatures/obj/
-Features.Core/obj/
-Features.Modeling/obj/
-Features.Comprehensive/obj
-Features.Rendering/obj
+bin
+obj
+/.vs
+/packages
