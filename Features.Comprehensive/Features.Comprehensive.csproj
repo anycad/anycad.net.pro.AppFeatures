@@ -38,12 +38,15 @@
   <ItemGroup>
     <Reference Include="AnyCAD.Exchange.Net, Version=20.0.7416.40275, Culture=neutral, PublicKeyToken=adad17ef48f32d48, processorArchitecture=AMD64">
       <HintPath>..\packages\AnyCAD.Net.Pro.2020.0.1\lib\x64\AnyCAD.Exchange.Net.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="AnyCAD.Foundation.Net, Version=20.0.7416.40273, Culture=neutral, PublicKeyToken=adad17ef48f32d48, processorArchitecture=AMD64">
       <HintPath>..\packages\AnyCAD.Net.Pro.2020.0.1\lib\x64\AnyCAD.Foundation.Net.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="AnyCAD.Presentation.Net, Version=20.0.7416.40275, Culture=neutral, PublicKeyToken=adad17ef48f32d48, processorArchitecture=AMD64">
       <HintPath>..\packages\AnyCAD.Net.Pro.2020.0.1\lib\x64\AnyCAD.Presentation.Net.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -57,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Algorithm\FindInnerWiresFromShape.cs" />
     <Compile Include="Algorithm\RemoveExtraEdges.cs" />
+    <Compile Include="Algorithm\SkeletonFromStep.cs" />
     <Compile Include="Algorithm\SurfaceSection.cs" />
     <Compile Include="Boolean\ExtrudeBoolean.cs" />
     <Compile Include="Boolean\SplitSTL.cs" />

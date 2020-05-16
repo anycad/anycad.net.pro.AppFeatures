@@ -23,6 +23,7 @@ namespace Features.Comprehensive
             FeatureManager.Instance().Add(new FindInnerWiresFromShape());
             FeatureManager.Instance().Add(new PostProcess());
             FeatureManager.Instance().Add(new PostProcessHex20());
+            FeatureManager.Instance().Add(new SkeletonFromStep());
         }
     }
 }
